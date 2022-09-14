@@ -1,0 +1,131 @@
+/* pc */
+@media (min-width:1024px){
+    .menu-mobile-btn{
+        display: none;
+    }
+
+    .btn-submit{
+        float: right;
+        margin-right: -7px;
+    }
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width: 1023px){
+    .btn{
+        height: 48px;
+    }
+}
+
+/* mobile */
+@media (max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+
+    #nav{
+        background-color: var(--black);
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: var(--ublack);
+    }
+
+    #nav .subnav a{
+        padding: 1px 41px;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav li:first-child a{
+        display: inline-block;
+    }
+
+    #nav li:hover{
+        display: block;
+    }
+
+    .search-btn .search-btn-icon{
+        display: none;
+    }
+
+    #slider .text{
+        display: none;
+    }
+
+    #content .member-list{
+        margin-top: 32px;
+        flex-direction: column;
+    }
+
+    #content .member-item{
+        margin-top: 30px;
+    }
+
+    #content .member-img{
+        width: 60%;
+        margin-top: 5px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tour-place {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left:15px;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .tour-place .tour-list{
+        width: 100%;
+        height: 480px;
+        margin-left: 50%;
+        transform: translateX(-46%);
+    }
+    #content .content-section{
+        padding: 64px 0;
+    }
+    .content-section{
+        margin: 0 auto;
+    }
+    #contact{
+        margin-top: 0;
+    }
+    .content-section .contact-content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .content-section .contact-form{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .content-section .contact-info{
+        width: 100%;
+    }
+
+    .contact-form-mobile{
+        flex-direction: column;
+    }
+
+    .contact-form-mobile .col-6{
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .btn{
+        height: 48px;
+    }
+
+    .btn-submit{
+        align-items: center;
+    }
+
+}
